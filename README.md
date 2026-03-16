@@ -6,7 +6,7 @@ As a United fan, I feel that Old Trafford isn't the fortress it used to be. So I
 
 ## What I Found
 
-**1. Home advantage has dropped — and hasn't come back.**
+**1. Home advantage has dropped and hasn't come back.**
 
 Home win rates fell from ~46% to ~42% during COVID when fans were banned. Even after fans returned, it hasn't recovered to pre-COVID levels.
 
