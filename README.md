@@ -111,6 +111,8 @@ Man United's home advantage gap is 2.1 wins which is mid-range, not elite. In 20
 
 *The smoothed trend shows a clear long-term decline in home advantage across the Premier League*
 
+*Note: The rolling average dips sharply in 2024-25 because it's the last season in the dataset and only averages with one neighbor instead of two so its not a real collapse.*
+
 ## Why This Matters
 
 Home advantage is one of the most talked about things in football. Whether it's pundits saying "they're a different team at home" or fans arguing that the 12th man makes the difference I wanted to see if the data backs it up.
