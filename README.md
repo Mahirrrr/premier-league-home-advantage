@@ -8,7 +8,7 @@ This project analyzes 8 seasons of Premier League data (2017-18 through 2024-25)
 
 **1. Home advantage dropped during COVID — and hasn't fully recovered.**
 
-When fans were banned from stadiums in 2019-20 and 2020-21, home win rates fell from ~45% to ~42%. Even after fans returned, the rate has stayed lower than pre-COVID levels, suggesting a permanent shift in the game.
+When fans were banned from stadiums in 2019-20 and 2020-21, home win rates fell from ~46% to ~42%. Even after fans returned, the rate has stayed lower than pre-COVID levels, suggesting a permanent shift in the game.
 
 **2. Away teams score more when stadiums are empty.**
 
@@ -16,7 +16,7 @@ The average goal advantage for home teams shrank during COVID seasons, supportin
 
 **3. Elite teams don't need home advantage — mid-table teams do.**
 
-Manchester City performed almost equally well home and away across all 8 seasons. Meanwhile, clubs like Arsenal and Tottenham showed a much larger gap, suggesting their fans play a bigger role in results.
+Manchester City performed almost equally well home and away across all 8 seasons (gap of just 0.3 wins). Meanwhile, clubs like Burnley and Newcastle showed a much larger gap, suggesting their fans play a bigger role in results.
 
 **4. The best home team almost always wins the league.**
 
@@ -71,30 +71,35 @@ The dataset contains home and away performance splits for all 20 Premier League 
 
 ## Screenshots
 
-### Query 1: Home Advantage by Season
-![Home Advantage by Season](screenshots/Q1%20Premier%20League%20Stats%20by%20Season.png)
-*X-axis: Season | Lines: Home Win % (higher) vs Away Win % (lower) — notice the dip during 2019-21 COVID seasons*
+### Query 1: Home Win % vs Away Win % by Season
+![Home vs Away Win Percentage](screenshots/Q1%20Home%20vs%20Away%20Win%20Percentage.png)
+🟢 Green = Home Win % | 🔵 Blue = Away Win %
+*Home advantage has steadily declined since 2018-19, with away win rates rising to close the gap*
 
-### Query 2: Team Home Dependence
+### Query 2: Which Teams Rely on Home Advantage Most?
 ![Team Home Dependence](screenshots/Q2%20Team%20Home%20Dependence%20Sheet.png)
 *Columns: Team | Seasons | Avg Home Wins | Avg Away Wins | Home Advantage Gap | Avg Home Goals | Avg Away Goals*
+*Man City's gap is just 0.3, while Burnley's is 3.0*
 
-### Query 3: Home Rank vs Final Position
+### Query 3: Home Rank vs Final League Position
 ![Home Rank vs Final Position](screenshots/Q3%20Home%20Rank%20vs%20Final%20Position.png)
-*Columns: Season | Team | Home Wins | Home Goals | Home Rank | Actual Final Position — compare Home Rank to Final Position*
+*Columns: Season | Team | Home Wins | Home Goals | Home Rank | Final Position*
+*The #1 home team almost always finishes as champion*
 
-### Query 4: COVID Impact on Away Goals
-![COVID Away Goals](screenshots/Q4%20Covid%20Away%20Goals.png)
-*Columns: Season | Avg Home Goals | Avg Away Goals | Home Goal Advantage | Fan Status — home goal advantage shrinks during COVID*
+### Query 4: COVID Impact on Home Goal Advantage
+![Home Goal Advantage](screenshots/Q4%20Home%20Goal%20Advantage%20by%20Season.png)
+🔵 Blue = Home goal advantage (home goals minus away goals)
+*The advantage shrinks from 2019-20 onward when fans were removed, going negative in 2022-23 and 2023-24*
 
-### Query 5: Post-COVID Home Wins Improvement
+### Query 5: Which Teams Bounced Back When Fans Returned?
 ![Fan Return Bounce Back](screenshots/Q5%20Post%20Covid%20Home%20Wins%20Improvement%20by%20Team.png)
-*Bars: Improvement in home wins after fans returned — positive = better with fans, negative = worse with fans*
+🔵 Blue = COVID home wins | 🟣 Purple = Post-COVID home wins | 🟢 Green = Improvement
+*Positive green bars mean the team was better with fans back, negative means worse*
 
-### Query 6: Rolling Average Trend
-![Rolling Average Trend](screenshots/Q6%20Rolling%20Average%20Trend.png)
-*Lines: Home Win % and Rolling Average — shows the gradual long-term decline in home advantage*
-
+### Query 6: Long-Term Trend with Rolling Average
+![Rolling Average Trend](screenshots/Q6%20Home%20Win%20Pct%20and%20Rolling%20Average.png)
+🟢 Green = Home Win % | 🔵 Blue = Rolling Average
+*The smoothed trend shows a clear long-term decline in home advantage across the Premier League*
 ## About
 
 Built by Mahir Abdullah as part of a Business Analytics & AI portfolio. This project demonstrates SQL proficiency across aggregation, window functions, CTEs, subqueries, and joins — applied to a real-world dataset to answer a genuine analytical question.
