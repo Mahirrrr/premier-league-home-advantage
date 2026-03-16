@@ -72,23 +72,28 @@ The dataset contains home and away performance splits for all 20 Premier League 
 ## Screenshots
 
 ### Query 1: Home Advantage by Season
-![Home Advantage by Season](screenshots/Q1%20Premier%20League%20Stats%20by%20Season.png)
+![Home Advantage by Season](ss/Q1%20Premier%20League%20Stats%20by%20Season.png)
+*X-axis: Season | Lines: Home Win % (higher) vs Away Win % (lower) — notice the dip during 2019-21 COVID seasons*
 
 ### Query 2: Team Home Dependence
-![Team Home Dependence](screenshots/Q2%20Team%20Home%20Dependence%20Sheet.png)
+![Team Home Dependence](ss/Q2%20Team%20Home%20Dependence%20Sheet.png)
+*Columns: Team | Seasons | Avg Home Wins | Avg Away Wins | Home Advantage Gap | Avg Home Goals | Avg Away Goals*
 
 ### Query 3: Home Rank vs Final Position
-![Home Rank vs Final Position](screenshots/Q3%20Home%20Rank%20vs%20Final%20Position.png)
+![Home Rank vs Final Position](ss/Q3%20Home%20Rank%20vs%20Final%20Position.png)
+*Columns: Season | Team | Home Wins | Home Goals | Home Rank | Actual Final Position — compare Home Rank to Final Position*
 
 ### Query 4: COVID Impact on Away Goals
-![COVID Away Goals](screenshots/Q4%20Covid%20Away%20Goals.png)
+![COVID Away Goals](ss/Q4%20Covid%20Away%20Goals.png)
+*Columns: Season | Avg Home Goals | Avg Away Goals | Home Goal Advantage | Fan Status — home goal advantage shrinks during COVID*
 
 ### Query 5: Post-COVID Home Wins Improvement
-![Fan Return Bounce Back](screenshots/Q5%20Post%20Covid%20Home%20Wins%20Improvement%20by%20Team.png)
+![Fan Return Bounce Back](ss/Q5%20Post%20Covid%20Home%20Wins%20Improvement%20by%20Team.png)
+*Bars: Improvement in home wins after fans returned — positive = better with fans, negative = worse with fans*
 
 ### Query 6: Rolling Average Trend
-![Rolling Average Trend](screenshots/Q6%20Rolling%20Average%20Trend.png)
-
+![Rolling Average Trend](ss/Q6%20Rolling%20Average%20Trend.png)
+*Lines: Home Win % and Rolling Average — shows the gradual long-term decline in home advantage*
 ## About
 
 Built by Mahir Abdullah as part of a Business Analytics & AI portfolio. This project demonstrates SQL proficiency across aggregation, window functions, CTEs, subqueries, and joins — applied to a real-world dataset to answer a genuine analytical question.
