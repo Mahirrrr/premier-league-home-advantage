@@ -72,22 +72,22 @@ The dataset contains home and away performance splits for all 20 Premier League 
 ## Screenshots
 
 ### Query 1: Home Advantage by Season
-![Home Advantage by Season](Q1%20Premier%20League%20Stats%20by%20Season.png)
+![Home Advantage by Season](screenshots/Q1%20Premier%20League%20Stats%20by%20Season.png)
 
 ### Query 2: Team Home Dependence
-![Team Home Dependence](Q2%20Team%20Home%20Dependence%20Sheet.png)
+![Team Home Dependence](screenshots/Q2%20Team%20Home%20Dependence%20Sheet.png)
 
 ### Query 3: Home Rank vs Final Position
-![Home Rank vs Final Position](Q3%20Home%20Rank%20vs%20Final%20Position.png)
+![Home Rank vs Final Position](screenshots/Q3%20Home%20Rank%20vs%20Final%20Position.png)
 
 ### Query 4: COVID Impact on Away Goals
-![COVID Away Goals](Q4%20Covid%20Away%20Goals.png)
+![COVID Away Goals](screenshots/Q4%20Covid%20Away%20Goals.png)
 
 ### Query 5: Post-COVID Home Wins Improvement
-![Fan Return Bounce Back](Q5%20Post%20Covid%20Home%20Wins%20Improvement%20by%20Team.png)
+![Fan Return Bounce Back](screenshots/Q5%20Post%20Covid%20Home%20Wins%20Improvement%20by%20Team.png)
 
 ### Query 6: Rolling Average Trend
-![Rolling Average Trend](Q6%20Rolling%20Average%20Trend.png)
+![Rolling Average Trend](screenshots/Q6%20Rolling%20Average%20Trend.png)
 
 ## About
 
