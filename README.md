@@ -1,6 +1,6 @@
 # Premier League Home Advantage Analysis ⚽
 
-**Do fans actually make a difference? Does playing at Old Trafford or Anfield still mean something — or is home advantage dying?**
+**Do fans actually make a difference? Does playing at Old Trafford or Anfield still mean something or is home advantage dying?**
 
 As a United fan, I feel that Old Trafford isn't the fortress it used to be. So I wanted to see for myself out if home advantage is a real thing in the Premier League, or has it been fading? I used SQL in Google BigQuery to dig through 8 seasons of data (2017-18 through 2024-25) and see what the numbers actually say specifically around COVID when stadiums were completely empty.
 
