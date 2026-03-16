@@ -73,7 +73,9 @@ The dataset contains home and away performance splits for all 20 Premier League 
 
 ### Query 1: Home Win % vs Away Win % by Season
 ![Home vs Away Win Percentage](screenshots/Q1%20Home%20vs%20Away%20Win%20Percentage.png)
+
 🟢 Green = Home Win % | 🔵 Blue = Away Win %
+
 *Home advantage has steadily declined since 2018-19, with away win rates rising to close the gap*
 
 ### Query 2: Which Teams Rely on Home Advantage Most?
@@ -88,7 +90,9 @@ The dataset contains home and away performance splits for all 20 Premier League 
 
 ### Query 4: COVID Impact on Home Goal Advantage
 ![Home Goal Advantage](screenshots/Q4%20Home%20Goal%20Advantage%20by%20Season.png)
+
 🔵 Blue = Home goal advantage (home goals minus away goals)
+
 *The advantage shrinks from 2019-20 onward when fans were removed, going negative in 2022-23 and 2023-24*
 
 ### Query 5: Which Teams Bounced Back When Fans Returned?
@@ -98,7 +102,9 @@ The dataset contains home and away performance splits for all 20 Premier League 
 
 ### Query 6: Long-Term Trend with Rolling Average
 ![Rolling Average Trend](screenshots/Q6%20Home%20Win%20Pct%20and%20Rolling%20Average.png)
+
 🟢 Green = Home Win % | 🔵 Blue = Rolling Average
+
 *The smoothed trend shows a clear long-term decline in home advantage across the Premier League*
 ## About
 
